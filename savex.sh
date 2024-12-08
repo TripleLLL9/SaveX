@@ -6,7 +6,7 @@ seperator() {
 
 resetConfig() {
     clear
-    read -rp "WARNING: This will erase all configuration files, and restart the program as if you were running it for the first time. Do you really want to do this? (Y/N)" yn
+    read -rp "WARNING: This will erase all configuration files, and restart the program as if you were running it for the first time. Do you really want to do this? (Y/N) " yn
     case $yn in
         [yY] )
             seperator
