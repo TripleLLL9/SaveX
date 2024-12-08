@@ -69,28 +69,28 @@ save_to_slot() {
     seperator
     echo "save"
     seperator
-    read -p "Press any key to return to the main menu..." -n1 -s    
+    read -rp "Press any key to return to the main menu..." -n1 -s    
 }
 
 load_from_slot() {
     seperator
     echo "load"
     seperator
-    read -p "Press any key to return to the main menu..." -n1 -s  
+    read -rp "Press any key to return to the main menu..." -n1 -s  
 }
 
 list_slots() {
     seperator
     echo "list"
     seperator
-    read -p "Press any key to return to the main menu..." -n1 -s  
+    read -rp "Press any key to return to the main menu..." -n1 -s  
 }
 
 delete_slot() {
     seperator
     echo "delete"
     seperator
-    read -p "Press any key to return to the main menu..." -n1 -s  
+    read -rp "Press any key to return to the main menu..." -n1 -s  
 }
 
 pathInit() {
