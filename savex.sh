@@ -99,7 +99,8 @@ pathInit() {
 
     if [ -d "$savepath" ]; then
         if [ -r "$savepath" ] && [ -w "$savepath" ]; then
-            jq --arg path "$savepath" '.savepath = $path' config.json > config.tmp && mv config.tmp config.json
+            jq --arg path "$savepath" '.savepath = $path' config.json > config.tmp 
+            mv config.tmp config.json
             seperator
             read -rp "Save directory changed successfully! Press any key to return to the main menu..." -n1 -s
         else
