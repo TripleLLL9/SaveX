@@ -7,7 +7,8 @@ the tool is planned to save certain, typical 4-slot save files into the program,
 
 the program would go like this:
 
-SAVING:
+### SAVING:
+
 user runs program
 
 program welcomes you; asks you to input a file path to save to a slot
@@ -16,7 +17,8 @@ user inputs a path and saves to slot 1
 
 (rinse and repeat for how many 4-slot saves you want to have avaliable)
 
-LOADING:
+### LOADING:
+
 user wants to load slot 1
 
 program loads slot 1 by renaming the save file appropriately so that when the game is run, that very save gets loaded; affectively giving you more save slots
